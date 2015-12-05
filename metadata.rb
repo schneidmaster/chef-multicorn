@@ -3,7 +3,7 @@ maintainer       'Zach Schneider'
 maintainer_email 'zach@schneid.io'
 license          'MIT'
 description      'Installs the Multicorn Postgres extension'
-version          '1.0.1'
+version          '1.0.2'
 
 recipe 'multicorn', 'Installs Multicorn'
 
