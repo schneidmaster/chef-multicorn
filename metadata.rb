@@ -2,10 +2,10 @@ name             'multicorn'
 maintainer       'Zach Schneider'
 maintainer_email 'zach@schneid.io'
 license          'MIT'
-description      'Installs the multicorn Postgres extension'
+description      'Installs the Multicorn Postgres extension'
 version          '1.0.0'
 
-recipe 'multicorn', 'Installs multicorn'
+recipe 'multicorn', 'Installs Multicorn'
 
 depends          'postgresql'
 depends          'zip'
