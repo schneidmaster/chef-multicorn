@@ -1,5 +1,7 @@
-package ['gcc', 'python-dev', 'postgresql-server-dev-9.3', 'postgresql-common', 'python-setuptools'] do
-  action :install
+%w(gcc python-dev postgresql-server-dev-9.3 postgresql-common python-setuptools).each do |name|
+  package name do
+    action :install
+  end
 end
 
 remote_file "#{Chef::Config[:file_cache_path]}/multicorn-1.2.4.zip" do
