@@ -1,6 +1,6 @@
 include_recipe 'zip'
 
-%w(gcc python-dev postgresql-server-dev-9.4 postgresql-common python-setuptools).each do |name|
+%w(gcc python-dev postgresql-server-dev-9.3 postgresql-common python-setuptools).each do |name|
   package name do
     action :install
   end
